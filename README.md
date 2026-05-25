@@ -4,6 +4,12 @@ Landing page for the Memory Cards iPhone app, built with React and Vite.
 
 The site includes the main product page and a Privacy Policy page. It is designed to be deployed as a static site, including GitHub Pages.
 
+Production URL when deployed to GitHub Pages from a `memory-cards` repository:
+
+```text
+https://<username>.github.io/memory-cards/
+```
+
 ## Requirements
 
 - Node.js
