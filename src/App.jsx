@@ -230,7 +230,7 @@ function Home() {
 function PrivacyPolicy() {
   return (
     <article className="policy">
-      <p className="eyebrow">Last updated: May 25, 2026</p>
+      <p className="eyebrow">Last updated: May 26, 2026</p>
       <h1>Privacy Policy</h1>
       <p>
         This Privacy Policy explains how Memory Cards handles information when
@@ -239,22 +239,37 @@ function PrivacyPolicy() {
 
       <h2>Information We Collect</h2>
       <p>
-        Memory Cards does not collect, sell, or share personal information; the
-        app does not require an account and does not include advertising
+        Memory Cards does not collect personal information through the app. The
+        app does not require an account, does not include advertising, and does
+        not send your card content to us
       </p>
 
       <h2>Your Card Content</h2>
       <p>
         Collections, cards, front sides, back sides, colors, icons, and widget
-        preferences are created by you and are intended to stay on your device;
-        the Home Screen widget uses the selected collection to display cards
-        from your saved content
+        preferences are created by you and stored locally on your device. The
+        Home Screen widget uses the selected collection to display cards from
+        your saved content
       </p>
 
-      <h2>Analytics and Tracking</h2>
+      <h2>Data Storage and Deletion</h2>
       <p>
-        Memory Cards does not use third-party analytics, advertising trackers,
-        or cross-app tracking
+        Your saved content remains on your device until you delete it. You can
+        delete collections and cards in the app, or remove local app data by
+        deleting Memory Cards from your device
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Memory Cards does not use third-party analytics, advertising SDKs, or
+        cross-app tracking services
+      </p>
+
+      <h2>Support Requests</h2>
+      <p>
+        If you contact us by email, we receive the email address and information
+        you choose to include. We use that information only to respond to your
+        request
       </p>
 
       <h2>Children's Privacy</h2>
@@ -267,6 +282,12 @@ function PrivacyPolicy() {
       <p>
         We may update this Privacy Policy when the app changes. The updated
         version will be posted on this page with a new effective date
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact us at{' '}
+        <a href={`mailto:${supportEmail}`}>{supportEmail}</a>
       </p>
     </article>
   );
