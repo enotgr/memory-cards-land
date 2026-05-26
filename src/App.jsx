@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import heroImage from '../images/831shots_so_1.png';
+import heroImage from '../images/831shots_so.png';
 import overviewImage from '../images/975shots_so.png';
 import flowImage from '../images/946shots_so.png';
 import themesImage from '../images/732shots_so.png';
@@ -11,8 +11,8 @@ import editorImage from '../images/774shots_so.png';
 import trainingImage from '../images/606shots_so.png';
 import cardPracticeImage from '../images/378shots_so.png';
 import widgetImage from '../images/845shots_so.png';
-import logoImage from '../images/logo_white.jpg';
-import logoImageGray from '../images/logo_gray.jpg';
+import logoImageWhite from '../images/logo_white.png';
+import logoImageGray from '../images/logo_gray.png';
 
 const supportEmail = 'enotgr.company@gmail.com';
 const currentYear = new Date().getFullYear();
@@ -51,7 +51,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#/" aria-label="Memory Cards home">
-        <img className="brand-mark" src={logoImage} alt="" aria-hidden="true" />
+        <img className="brand-mark" src={logoImageGray} alt="" aria-hidden="true" />
         <span>Memory Cards</span>
       </a>
     </header>
@@ -265,7 +265,7 @@ function PrivacyPolicy() {
 
       <h2>Changes to This Policy</h2>
       <p>
-        We may update this Privacy Policy when the app changes; the updated
+        We may update this Privacy Policy when the app changes. The updated
         version will be posted on this page with a new effective date
       </p>
     </article>
@@ -276,7 +276,7 @@ function Footer() {
   return (
     <footer className="site-footer">
       <span className="footer-brand">
-        <img src={logoImageGray} alt="" aria-hidden="true" />
+        <img src={logoImageWhite} alt="" aria-hidden="true" />
         <span>Memory Cards</span>
       </span>
       <div className="footer-links">
