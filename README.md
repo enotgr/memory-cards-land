@@ -1,6 +1,6 @@
-# Memory Cards Web
+# Memard Web
 
-Landing page for the Memory Cards iPhone app, built with React and Vite.
+Landing page for the Memard iPhone app, built with React and Vite.
 
 The site includes the main product page and a Privacy Policy page. It is designed to be deployed as a static site, including GitHub Pages.
 

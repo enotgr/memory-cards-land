@@ -50,9 +50,9 @@ function getRoute() {
 function Header() {
   return (
     <header className="site-header">
-      <a className="brand" href="#/" aria-label="Memory Cards home">
+      <a className="brand" href="#/" aria-label="Memard home">
         <img className="brand-mark" src={logoImageGray} alt="" aria-hidden="true" />
-        <span>Memory Cards</span>
+        <span>Memard</span>
       </a>
     </header>
   );
@@ -65,7 +65,7 @@ function Home() {
         <img className="hero-bg" src={heroImage} alt="" aria-hidden="true" />
         <div className="hero-copy">
           <p className="eyebrow">Create, organize, practice</p>
-          <h1>Memory Cards</h1>
+          <h1>Memard</h1>
           <p className="hero-text">
             Create collections, add front and back cards, and practice what you
             want to remember in a calm app built for everyday use
@@ -77,7 +77,7 @@ function Home() {
         <p className="eyebrow">Built for daily study</p>
         <h2>All the essentials, without the clutter</h2>
         <p>
-          Memory Cards keeps the full workflow visible: collect, create,
+          Memard keeps the full workflow visible: collect, create,
           practice, and keep cards returning through the widget
         </p>
       </section>
@@ -87,12 +87,12 @@ function Home() {
           <p className="eyebrow">Overview</p>
           <h2>A calm place for everything you want to remember</h2>
           <p>
-            Memory Cards keeps collections, cards, training, and the widget in
+            Memard keeps collections, cards, training, and the widget in
             one focused iPhone experience
           </p>
         </div>
         <div className="wide-render">
-          <img src={overviewImage} alt="Memory Cards app overview screens" />
+          <img src={overviewImage} alt="Memard app overview screens" />
         </div>
       </section>
 
@@ -107,8 +107,8 @@ function Home() {
           </p>
         </div>
         <div className="device-pair collection-pair">
-          <img src={collectionsImage} alt="Memory Cards collections screen" />
-          <img src={collectionDetailImage} alt="Memory Cards collection detail screen" />
+          <img src={collectionsImage} alt="Memard collections screen" />
+          <img src={collectionDetailImage} alt="Memard collection detail screen" />
         </div>
       </section>
 
@@ -167,7 +167,7 @@ function Home() {
 
       <section className="widget-feature tone-light">
         <div className="widget-image">
-          <img src={widgetImage} alt="Memory Cards widget on iPhone Home Screen" />
+          <img src={widgetImage} alt="Memard widget on iPhone Home Screen" />
         </div>
         <div className="feature-copy">
           <p className="eyebrow">Widget</p>
@@ -192,7 +192,7 @@ function Home() {
           <p className="eyebrow">Reminders</p>
           <h2>Practice at the right moment</h2>
           <p>
-            Set a daily notification for a specific time and let Memory Cards
+            Set a daily notification for a specific time and let Memard
             remind you to return before practice slips away
           </p>
         </div>
@@ -208,14 +208,14 @@ function Home() {
           </p>
         </div>
         <div className="wide-render split-render">
-          <img src={themesImage} alt="Memory Cards light and dark mode screens" />
+          <img src={themesImage} alt="Memard light and dark mode screens" />
           <img src={editorImage} alt="Collection customization screen" />
         </div>
       </section>
 
       <section className="closing-panel">
         <div>
-          <p className="eyebrow">Memory Cards</p>
+          <p className="eyebrow">Memard</p>
           <h2>Small enough to use every day</h2>
           <p>
             A focused place for the terms, facts, and notes you want to
@@ -230,16 +230,16 @@ function Home() {
 function PrivacyPolicy() {
   return (
     <article className="policy">
-      <p className="eyebrow">Last updated: May 26, 2026</p>
+      <p className="eyebrow">Last updated: May 28, 2026</p>
       <h1>Privacy Policy</h1>
       <p>
-        This Privacy Policy explains how Memory Cards handles information when
+        This Privacy Policy explains how Memard handles information when
         you use the iPhone app and its Home Screen widget
       </p>
 
       <h2>Information We Collect</h2>
       <p>
-        Memory Cards does not collect personal information through the app. The
+        Memard does not collect personal information through the app. The
         app does not require an account, does not include advertising, and does
         not send your card content to us
       </p>
@@ -256,12 +256,12 @@ function PrivacyPolicy() {
       <p>
         Your saved content remains on your device until you delete it. You can
         delete collections and cards in the app, or remove local app data by
-        deleting Memory Cards from your device
+        deleting Memard from your device
       </p>
 
       <h2>Third-Party Services</h2>
       <p>
-        Memory Cards does not use third-party analytics, advertising SDKs, or
+        Memard does not use third-party analytics, advertising SDKs, or
         cross-app tracking services
       </p>
 
@@ -274,7 +274,7 @@ function PrivacyPolicy() {
 
       <h2>Children's Privacy</h2>
       <p>
-        Memory Cards is not designed to collect personal information from
+        Memard is not designed to collect personal information from
         children
       </p>
 
@@ -298,13 +298,13 @@ function Footer() {
     <footer className="site-footer">
       <span className="footer-brand">
         <img src={logoImageWhite} alt="" aria-hidden="true" />
-        <span>Memory Cards</span>
+        <span>Memard</span>
       </span>
       <div className="footer-links">
         <a href={`mailto:${supportEmail}`}>Support: {supportEmail}</a>
         <a href="#/privacy">Privacy Policy</a>
       </div>
-      <span className="footer-copy">© {currentYear} Memory Cards. All rights reserved</span>
+      <span className="footer-copy">© {currentYear} Memard. All rights reserved</span>
     </footer>
   );
 }
